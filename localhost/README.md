@@ -1,24 +1,24 @@
 # Jenkins-Test
 
-git push:
-	-git init
-	-git add .
-	-git commit -m "_____"
-	-git remote add origin https://github.com/Avihay1997/Jenkins-Test.git
-	-git push -u origin main
+-git push:
+	- git init
+	- git add .
+	- git commit -m "_____"
+	- git remote add origin https://github.com/Avihay1997/Jenkins-Test.git
+	- git push -u origin main
 
 ###for every change, push it!!!!
 
 #Sign in to Jenkins:
-	-http://localhost:8080
+	- http://localhost:8080
 
 check for docker:
-	-docker ps
-	-docker network ls
-	-docker images
+	- docker ps
+	- docker network ls
+	- docker images
 
 to get the first admin password:
-	-/var/jenkins_home/secrets/initialAdminPassword
+	- /var/jenkins_home/secrets/initialAdminPassword
 
 ##check your Docker desktop for Containers or images
 
